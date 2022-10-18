@@ -10,6 +10,9 @@ dependencies:
   - jupyterlab
   - matplotlib
   - pandas
+  - pip
+  - pip:
+    - diversipy
   - psycopg2
   - python
   - seaborn
