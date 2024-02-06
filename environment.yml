@@ -4,15 +4,16 @@ channels:
   - conda-forge
 
 dependencies:
-  - geopandas
+  - geopandas 
   - ipywidgets
   - jinja2
   - jupyterlab
   - matplotlib
+  - openpyxl
   - pandas
   - pip
   - pip:
-    - diversipy
+      - -e .  # install local refit_fvs package in editable mode
   - psycopg2
   - python
   - seaborn
@@ -20,4 +21,4 @@ dependencies:
   - tqdm
   - xlrd
 
-prefix: /users/ddiaz/miniconda3/calibrate_fvs
+prefix: /users/ddiaz/mambaforge/calibrate_fvs
